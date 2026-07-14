@@ -1,0 +1,16 @@
+D:\Vs\VSPROJ\DNDAPP\DNDAPP\bin\Debug\net8.0\DNDAPP.exe
+D:\Vs\VSPROJ\DNDAPP\DNDAPP\bin\Debug\net8.0\DNDAPP.deps.json
+D:\Vs\VSPROJ\DNDAPP\DNDAPP\bin\Debug\net8.0\DNDAPP.runtimeconfig.json
+D:\Vs\VSPROJ\DNDAPP\DNDAPP\bin\Debug\net8.0\DNDAPP.dll
+D:\Vs\VSPROJ\DNDAPP\DNDAPP\bin\Debug\net8.0\DNDAPP.pdb
+D:\Vs\VSPROJ\DNDAPP\DNDAPP\obj\Debug\net8.0\DNDAPP.GeneratedMSBuildEditorConfig.editorconfig
+D:\Vs\VSPROJ\DNDAPP\DNDAPP\obj\Debug\net8.0\DNDAPP.AssemblyInfoInputs.cache
+D:\Vs\VSPROJ\DNDAPP\DNDAPP\obj\Debug\net8.0\DNDAPP.AssemblyInfo.cs
+D:\Vs\VSPROJ\DNDAPP\DNDAPP\obj\Debug\net8.0\DNDAPP.csproj.CoreCompileInputs.cache
+D:\Vs\VSPROJ\DNDAPP\DNDAPP\obj\Debug\net8.0\DNDAPP.dll
+D:\Vs\VSPROJ\DNDAPP\DNDAPP\obj\Debug\net8.0\refint\DNDAPP.dll
+D:\Vs\VSPROJ\DNDAPP\DNDAPP\obj\Debug\net8.0\DNDAPP.pdb
+D:\Vs\VSPROJ\DNDAPP\DNDAPP\obj\Debug\net8.0\DNDAPP.genruntimeconfig.cache
+D:\Vs\VSPROJ\DNDAPP\DNDAPP\obj\Debug\net8.0\ref\DNDAPP.dll
+D:\Vs\VSPROJ\DNDAPP\DNDAPP\bin\Debug\net8.0\InputCharactres\Чёрный мечник — Long Story Short.json
+D:\Vs\VSPROJ\DNDAPP\DNDAPP\bin\Debug\net8.0\InputCharactres\ПАУЭР — Long Story Short.json
