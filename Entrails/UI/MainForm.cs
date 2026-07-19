@@ -128,8 +128,15 @@ namespace DNDAPP.UI
                 return;
             }
 
+            if (_characters.Count < 2)
+            {
+                MessageBox.Show("Для боевого режима нужно минимум 2 персонажа.");
+                return;
+            }
+
             CombatForm combatForm = new CombatForm(_characters);
             combatForm.ShowDialog();
+
         }
     }
 }

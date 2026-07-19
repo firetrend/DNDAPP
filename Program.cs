@@ -14,12 +14,10 @@ namespace DNDAPP
     [STAThread]
     static void Main()
     {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
+        Application.EnableVisualStyles();
+        Application.SetCompatibleTextRenderingDefault(false);
 
-            string inputPath = Path.GetFullPath(
-            Path.Combine(AppContext.BaseDirectory, "..", "..", "..", "InputCharactres")
-        );
+        string inputPath = Path.Combine(AppContext.BaseDirectory, "InputCharactres");
 
         Loader loader = new Loader(inputPath);
 

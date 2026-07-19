@@ -68,7 +68,10 @@ namespace DNDAPP.Entrails.Mechanics.fightsystem
 
             Participants = Participants
                 .OrderByDescending(p => p.Initiative)
+                .ThenByDescending(p => p.DexterityModifier)
                 .ToList();
+
+            Log.Add("Порядок инициативы сформирован. При равной инициативе выше ставится участник с большим модификатором ловкости.");
         }
 
         public void NextTurn()
