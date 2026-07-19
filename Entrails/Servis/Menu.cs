@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DNDAPP.Entrails.Mechanics.fightsystem;
 
 namespace DNDAPP.Entrails.Servis
 {
@@ -31,7 +32,8 @@ namespace DNDAPP.Entrails.Servis
                 Console.WriteLine("2. Показать персонажей");
                 Console.WriteLine("3. Бросить кубы");
                 Console.WriteLine("4. Проверка характеристики персонажа");
-                Console.WriteLine("5. Выход");
+                Console.WriteLine("5. Боевой режим");
+                Console.WriteLine("6. Выход");
 
                 string? input = Console.ReadLine();
 
@@ -54,6 +56,10 @@ namespace DNDAPP.Entrails.Servis
                         break;
 
                     case "5":
+                        StartCombatMode();
+                        break;
+
+                    case "6":
                         isRunning = false;
                         break;
 
@@ -209,6 +215,30 @@ namespace DNDAPP.Entrails.Servis
             Console.WriteLine();
             Console.WriteLine("Нажмите Enter для продолжения...");
             Console.ReadLine();
+        }
+        private void StartCombatMode()
+        {
+            if (_characters.Count == 0)
+            {
+                Console.WriteLine("Персонажи не загружены. Сначала загрузите персонажей.");
+                Pause();
+                return;
+            }
+
+            Combat combat = new Combat();
+
+            foreach (Charactres character in _characters)
+            {
+                Combatant combatant = CombatantFactory.FromCharacter(character);
+                combat.Participants.Add(combatant);
+            }
+
+            combat.Start();
+
+            CombatMenu combatMenu = new CombatMenu(combat);
+            combatMenu.Run();
+
+            Pause();
         }
     }
 }

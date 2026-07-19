@@ -14,3 +14,6 @@ D:\Vs\VSPROJ\DNDAPP\DNDAPP\obj\Debug\net8.0\DNDAPP.genruntimeconfig.cache
 D:\Vs\VSPROJ\DNDAPP\DNDAPP\obj\Debug\net8.0\ref\DNDAPP.dll
 D:\Vs\VSPROJ\DNDAPP\DNDAPP\bin\Debug\net8.0\InputCharactres\Чёрный мечник — Long Story Short.json
 D:\Vs\VSPROJ\DNDAPP\DNDAPP\bin\Debug\net8.0\InputCharactres\ПАУЭР — Long Story Short.json
+D:\Vs\VSPROJ\DNDAPP\DNDAPP\obj\Debug\net8.0\DNDAPP.sourcelink.json
+D:\Vs\VSPROJ\DNDAPP\DNDAPP\bin\Debug\net8.0\InputCharactres\Гриффит — Long Story Short.json
+D:\Vs\VSPROJ\DNDAPP\DNDAPP\bin\Debug\net8.0\InputCharactres\Торкелль _Длинный_ — Long Story Short(2).json

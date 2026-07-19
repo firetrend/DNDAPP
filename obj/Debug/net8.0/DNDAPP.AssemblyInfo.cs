@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DNDAPP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4295498015f6c6e64bb86c66246728bc7b4aaa3b")]
 [assembly: System.Reflection.AssemblyProductAttribute("DNDAPP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DNDAPP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

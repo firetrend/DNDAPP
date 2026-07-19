@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DNDAPP.Entrails.Mechanics.fightsystem;
 
 namespace DNDAPP.Entrails.Servis.Data
 {
@@ -21,6 +22,8 @@ namespace DNDAPP.Entrails.Servis.Data
         public int ProficiencyBonus { get; set; }
 
         public AbilityScores Abilities { get; set; } = new();
+        public List<Attack> Attacks { get; set; } = new();
+        public List<InventoryItem> Inventory { get; set; } = new();
     }
 
     internal class AbilityScores
